@@ -1,0 +1,169 @@
+@charset "EUC-KR";
+
+body{
+	margin: 0;
+}
+
+.img{
+	justify-content: center;
+}
+
+#profile-img{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #2B3856;
+	transform: scale(1);
+	border-radius: 70%;
+}
+
+.menu-bar {
+  position: fixed;
+  border: 0;
+  background-color: #2B3856;
+  display: block;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+/*목차*/
+.index h3 {
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 목차 각 항목 반응형 커서 */
+.index h3:hover {
+  font-size: 1.1em;
+  opacity: 1;
+  text-shadow: 0.7px 0.7px 0.7px #000;
+}
+
+section {
+  margin-left: 260px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  margin: 0;
+}
+
+/* ABOUT part*/
+
+.name {
+  font-size: 65px;
+  font-weight: 900;
+  font-family: 'Oswald', sans-serif;
+}
+
+.contacts {
+  font-size: 15px;
+  opacity: 0.5;
+  font-family: 'Roboto Mono', monospace;
+  font-style: italic;
+}
+
+.main-introduction {
+  font-size: 17px;
+  font-family: 'Noto Sans KR', sans-serif;
+  opacity: 0.8;
+}
+/* EDUCATION part */
+.university {
+  font-size: 65px;
+  font-weight: 700;
+  margin-top:25px;
+  margin-bottom:25px;
+  font-family: 'Oswald', sans-serif;
+}
+.comments {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  opacity: 0.6;
+}
+/* INTERESTS part */
+.my-Favorite-text {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+}
+.Favorite .my-Favorite-title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+	
+}
+
+.my-Favorite-img {
+  margin-bottom: 20px;
+}
+.my-Favorite-img img {
+  width:150px;
+  height: 150px;
+  transition: all 0.3s ease-in-out;
+}
+/* 하단 코멘트 */
+.Favorite .comment {
+  font-size: 16px;
+  font-style: italic;
+}
+
+img:hover {
+  transform: scale(1.7);
+  -webkit-transform: scale(1.7); /* 크롬 */
+  -moz-transform: scale(1.7); /* 파이어폭스 */
+  -o-transform: scale(1.7); /* 오페라 */
+  z-index: 1;
+  align-items: center;
+}
+
+<!-- 공백입니다아아아아아아아아앙 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
