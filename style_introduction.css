@@ -108,8 +108,8 @@ p {
   margin-bottom: 20px;
 }
 .my-Favorite-img img {
-  width:150px;
-  height: 150px;
+  width:100px;
+  height: 100px;
   transition: all 0.3s ease-in-out;
 }
 /* 하단 코멘트 */
