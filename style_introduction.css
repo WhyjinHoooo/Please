@@ -127,7 +127,14 @@ img:hover {
   align-items: center;
 }
 
-<!-- 공백입니다아아아아아아아아앙 -->
+.contacts {
+  font-size: 15px;
+  opacity: 0.5;
+  font-family: 'Roboto Mono', monospace;
+  font-style: italic;
+}
+
+
 
 
 
